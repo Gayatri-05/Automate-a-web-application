@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="10" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-12T11:55:14 IST" name="Default suite" finished-at="2022-10-12T11:56:03 IST" duration-ms="49510">
+    <groups>
+    </groups>
+    <test started-at="2022-10-12T11:55:14 IST" name="Default test" finished-at="2022-10-12T11:56:03 IST" duration-ms="49510">
+      <class name="com.test.Website">
+        <test-method signature="navigate()[pri:0, instance:com.test.Website@6392827e]" started-at="2022-10-12T11:55:14 IST" name="navigate" finished-at="2022-10-12T11:55:59 IST" duration-ms="45015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="pageLoadTime()[pri:0, instance:com.test.Website@6392827e]" started-at="2022-10-12T11:55:59 IST" name="pageLoadTime" finished-at="2022-10-12T11:55:59 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageLoadTime -->
+        <test-method signature="CheckResolution()[pri:0, instance:com.test.Website@6392827e]" started-at="2022-10-12T11:55:59 IST" name="CheckResolution" finished-at="2022-10-12T11:55:59 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckResolution -->
+        <test-method signature="refresh()[pri:0, instance:com.test.Website@6392827e]" started-at="2022-10-12T11:55:59 IST" name="refresh" finished-at="2022-10-12T11:55:59 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refresh -->
+        <test-method signature="scroll()[pri:0, instance:com.test.Website@6392827e]" started-at="2022-10-12T11:55:59 IST" name="scroll" finished-at="2022-10-12T11:56:00 IST" duration-ms="825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scroll -->
+        <test-method signature="search()[pri:0, instance:com.test.Website@6392827e]" started-at="2022-10-12T11:56:00 IST" name="search" finished-at="2022-10-12T11:56:03 IST" duration-ms="3315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="LoadingImages()[pri:0, instance:com.test.Website@6392827e]" started-at="2022-10-12T11:56:03 IST" name="LoadingImages" finished-at="2022-10-12T11:56:03 IST" depends-on-methods="com.test.Website.navigate" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoadingImages -->
+        <test-method signature="NavigateToBottom()[pri:0, instance:com.test.Website@6392827e]" started-at="2022-10-12T11:56:03 IST" name="NavigateToBottom" finished-at="2022-10-12T11:56:03 IST" depends-on-methods="com.test.Website.navigate" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToBottom -->
+        <test-method signature="imageDownload()[pri:0, instance:com.test.Website@6392827e]" started-at="2022-10-12T11:56:03 IST" name="imageDownload" finished-at="2022-10-12T11:56:03 IST" depends-on-methods="com.test.Website.navigate" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imageDownload -->
+      </class> <!-- com.test.Website -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
